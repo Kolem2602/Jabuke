@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Boja" Content="Boja" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="4.674,0.574" Height="53" Width="160" Margin="16,78,0,0"/>
+        <Label x:Name="Kolicina" Content="Količina" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="4.674,0.574" Height="53" Width="160" Margin="248,78,0,0"/>
+        <Label x:Name="zbroj" Content="Zbroj količina svih jabuka:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,181,0,0" RenderTransformOrigin="0.672,0.496"/>
+        <Label x:Name="najmanje" Content="Najmanje je jabuka boje: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,260,0,0" Width="166"/>
+        <TextBox x:Name="textBoxIspisNajmanjeJabukaBoje" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" Margin="186,263,0,0"/>
+        <TextBox x:Name="textBoxZbrojKolicinaSvih" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" Margin="186,184,0,0"/>
+        <TextBox x:Name="textBoxKolicina" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="341,82,0,0"/>
+        <TextBox x:Name="textBoxBoja" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="56,82,0,0"/>
+        <Button x:Name="buttonzapamtiBroj" Content="Zapamti" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="493,86,0,0" Click="Zapamti"/>
+        <Button x:Name="buttonIzracunajZbrojKolicinaSvih" Content="Izračunaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="425,183,0,0" Click="Izracunaj"/>
+        <Button x:Name="buttonPretrazi" Content="Pretraži" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="425,266,0,0" Click="Pretrazi"/>
+
     </Grid>
 </Window>
